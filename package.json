@@ -1,0 +1,26 @@
+{
+  "name": "vwo-mixpanel-integration",
+  "version": "1.0.0",
+  "description": "VWO Mixpanel integration",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "author": "dev@wingify.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wingify/vwo-mixpanel-integration.git"
+  },
+  "keywords": [
+    "VWO",
+    "Mixpanel"
+  ],
+  "bugs": {
+    "url": "https://github.com/wingify/vwo-mixpanel-integration/issues"
+  },
+  "homepage": "https://github.com/wingify/vwo-mixpanel-integration#readme"
+}
