@@ -40,7 +40,7 @@ function VWOMixpanelPlugin(mixpanel){
                 mixpanel.track("VWO", _vis_data);
                 for (var i = 0; i < _vis_data["experiments"].length; i++) {
                     var experiment = _vis_data["experiments"][i];
-                    mixpanel.track("Experiment Started", {"Experiment name": experiment.eN, "Variant name": experiment.vN});
+                    mixpanel.track("$experiment_started", {"Experiment name": experiment.eN, "Variant name": experiment.vN});
                 }
 
                 mixpanel.people.set({
